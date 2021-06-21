@@ -1,0 +1,2 @@
+// Contact will be a child of header and will be conditionally rendered when Contact is clickedin the Nav Section
+// Contact will also be conditionally renderd if the contact button is pressed in the footer section as well.
