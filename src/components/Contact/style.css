@@ -10,3 +10,9 @@
     margin-top: 4%!important;
     margin-bottom: 4%!important;
 }
+.contact{
+    transition: transform 250ms!important;
+}
+.contact:hover {
+    transform: translateY(-10px)!important;
+  }
