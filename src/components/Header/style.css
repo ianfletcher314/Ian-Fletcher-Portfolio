@@ -1,0 +1,16 @@
+.btnbtn {
+    /*
+      All of the base styles have
+      moved to the “CSS” tab above.
+    */
+    transition: transform 250ms!important;
+}
+  
+.btnbtn:hover {
+    transform: translateY(-10px)!important;
+}
+.navbtn{
+    font-size: 20px!important;
+    margin-left: 0px!important;
+    margin-right: 0px!important;   
+}
