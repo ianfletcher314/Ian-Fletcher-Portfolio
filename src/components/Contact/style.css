@@ -1,0 +1,12 @@
+.space{
+    display: flex!important;
+    flex-direction: row!important;
+    justify-content: space-between!important;
+    font-size: 20px!important;
+    margin-top: 10%!important;
+    margin-bottom: 10%!important;   
+}
+.pads{
+    margin-top: 4%!important;
+    margin-bottom: 4%!important;
+}
