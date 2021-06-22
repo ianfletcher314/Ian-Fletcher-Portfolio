@@ -2,6 +2,7 @@
 // this componenet will be a child of the Header component and will conditionally render it when 
 // the about button is clicked
 import React from "react";
+import "./style.css";
 
 function About() {
     return (
