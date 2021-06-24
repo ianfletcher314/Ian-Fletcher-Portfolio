@@ -4,11 +4,14 @@ import React from "react";
 
 function Projects ({project}) {
     return(
-        <div>
-        <h1>{project.appName}</h1>
-        <a href={project.url}>
+        <div className="center">
+        <h1 className= "center">{project.appName}</h1>
+        <a href={project.url} >
         {project.photo}
         </a>
+       
+        {/* <img src={project.photo} alt={project.appName} id="project2"
+            class="col s6   responsive-img hoverable pads bradius layer btnbtn"></img> */}
     </div>
     )
 
