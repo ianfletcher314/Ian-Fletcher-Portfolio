@@ -55,7 +55,7 @@ function ProjectContainer() {
 
     return (
         <div>
-            <h2 className="center pink-text text-accent-1" id="projects">Projects</h2>
+            <h2 className="center pink-text text-accent-1" id="projects">PROJECTS</h2>
             <div>
                 <section className="container caveat-bold projectsContainer center">
                     {info.map(project => (

@@ -6,7 +6,7 @@ import "./style.css";
 function Contact() {
     return (
         <div>
-        <h2 className="Contactheader center cyan-text text-accent-3">Contact</h2>
+        <h2 className="Contactheader center cyan-text text-accent-3">CONTACT</h2>
 
 <section id="contact" className="container caveat-bold center space pads">
     <a className="center grey-text text-accent-3 contact" href="mailto:ianfletcher314@gmail.comcom">EMAIL</a>

@@ -7,7 +7,7 @@ import "./style.css";
 function About() {
     return (
         <div>
-         <h2 class="AboutMeHeader center purple-text text-lighten-3" id="about">About Me</h2>
+         <h2 class="AboutMeHeader center purple-text text-lighten-3" id="about">ABOUT ME</h2>
     <section class="container caveat-bold aboutContainer">
 
         <p class="aboutMeText caveat flow-text grey-text text-darken-3">
