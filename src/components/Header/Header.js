@@ -2,6 +2,7 @@
 // About, Clients, and Projects, and Contact Componenets 
 import React from "react";
 import "./style.css";
+import image from "../../images/ian2.jpg"
 
 
 function Header({componentCluster,setPageState}) {
@@ -25,7 +26,7 @@ function Header({componentCluster,setPageState}) {
     </nav>
 
     <div class="center container">
-        <img src="images/ian2.jpg" alt="Ian's Photo"
+        <img src={image} alt="Ian's Photo"
             className="container mobileimage circle responsive-img hide-on-large-only show-on-medium-and-down"></img>
     </div>
 
