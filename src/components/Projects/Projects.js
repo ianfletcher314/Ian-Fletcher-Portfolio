@@ -5,11 +5,12 @@ import "./style.css";
 
 function Projects ({project}) {
     return(
-        <div className="hoverable bradius btnbtn col s1 layer">
-        {/* <h1 className= "center">{project.appName}</h1> */}
+        <div className="col s6 layer pads">
+       
         <a  href={project.url} >
         {project.photo}
         </a>
+         <h4 className= "center">{project.appName}</h4>
        
         {/* <img src={project.photo} alt={project.appName} id="project2"
             class="col s6   responsive-img hoverable pads bradius layer btnbtn"></img> */}
