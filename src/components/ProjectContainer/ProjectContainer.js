@@ -31,7 +31,7 @@ function ProjectContainer() {
 
     },
     {
-        appName: "Company Directory",
+        appName: "Directory",
         url: "https://ianfletcher314.github.io/company-directory/",
         photo: <img src={directory} alt="photo" id="project2"
         className="responsive-img hoverable bradius btnbtn "></img>
@@ -54,15 +54,15 @@ function ProjectContainer() {
     ]
 
     return (
-        <div >
+        <div className="container">
             <h2 className="center pink-text text-accent-1" id="projects">PROJECTS</h2>
-            <div className="center">
+            
                 <div className="caveat-bold projectsContainer center row">
                     {info.map(project => (
                             <Projects project={project} />
                     ))}
                 </div>
-            </div>
+      
 
         </div>
     )

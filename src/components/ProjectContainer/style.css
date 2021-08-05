@@ -37,6 +37,10 @@
     margin-top: 5%!important;
     margin-bottom: 5%!important;
     text-align: center;
+  
+}
+.halfsize{
+    width: 80%;
 }
 .pads{
     margin-top: 5px!important;
