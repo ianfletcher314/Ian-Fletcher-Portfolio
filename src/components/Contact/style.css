@@ -10,9 +10,29 @@
     margin-top: 5px!important;
     margin-bottom: 5px!important;
 }
+.roof{
+    margin-top: 10%;
+}
+.icon{
+    height:256px;
+    width:256px;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+.iconic{
+    height:290px;
+    width:290px;
+    padding-left: 4%;
+    padding-right: 4%;
+
+}
 .contact{
     transition: transform 250ms!important;
 }
 .contact:hover {
     transform: translateY(-10px)!important;
   }
+.Header{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
