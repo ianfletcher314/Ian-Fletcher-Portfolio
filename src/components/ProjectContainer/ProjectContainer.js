@@ -55,7 +55,7 @@ function ProjectContainer() {
 
     return (
         <div className="container">
-            <h2 className="center pink-text text-accent-1" id="projects">PROJECTS</h2>
+            <h2 className="center pink-text text-accent-1 Header" id="projects">PROJECTS</h2>
             
                 <div className="caveat-bold projectsContainer center row">
                     {info.map(project => (

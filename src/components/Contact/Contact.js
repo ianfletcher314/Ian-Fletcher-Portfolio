@@ -10,7 +10,7 @@ import mail from "../../images/email.png"
 function Contact() {
     return (
         <div>
-        <h2 className="Contactheader center cyan-text text-accent-3">CONTACT</h2>
+        <h2 className="Contactheader center cyan-text text-accent-3 Header">CONTACT</h2>
 
             <section id="contact" className="container caveat-bold center space roof">
             <a className="center grey-text text-accent-3 contact" href="https://github.com/ianfletcher314" target="_blank"
