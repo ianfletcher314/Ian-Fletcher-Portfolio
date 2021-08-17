@@ -91,5 +91,8 @@
 }
 .hidden{
     display:none;
-    
+
+}
+.middle{
+    text-align: center;
 }

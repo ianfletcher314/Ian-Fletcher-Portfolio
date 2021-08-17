@@ -59,8 +59,77 @@ function ProjectContainer() {
 
     }
     ]
-    const handleMouseOver = (event) => {
-        console.log("mouseover worked");
+    const handleMouseOverKis = (event) => {
+        console.log("KisKis");
+        var elem = document.getElementById('kiskispara');
+        var p1 = document.getElementById('project1');
+        var p2 = document.getElementById('project2');
+        var p3 = document.getElementById('project3');
+        var p4 = document.getElementById('project4');
+        var name = document.getElementById('KisKissName');
+        name.classList.add("hidden")
+        p1.classList.remove("col")
+        p1.classList.remove("s6")
+        p1.classList.remove("layer")
+        p1.classList.add("center")
+        p2.classList.add("hidden")
+        p3.classList.add("hidden")
+        p4.classList.add("hidden")
+        elem.classList.remove("hidden")
+    };
+    const handleMouseOverHor = (event) => {
+        console.log("Horoscope");
+        var elem = document.getElementById('horoscopepara');
+        elem.classList.remove("hidden")
+        var p1 = document.getElementById('project2');
+        var p2 = document.getElementById('project1');
+        var p3 = document.getElementById('project3');
+        var p4 = document.getElementById('project4');
+        var name = document.getElementById('HoroscopeName');
+        name.classList.add("hidden")
+        p1.classList.remove("col")
+        p1.classList.remove("s6")
+        p1.classList.remove("layer")
+        p1.classList.add("center")
+        p2.classList.add("hidden")
+        p3.classList.add("hidden")
+        p4.classList.add("hidden")
+    };
+    const handleMouseOverBud = (event) => {
+        console.log("Budget");
+        var elem = document.getElementById('budgetpara');
+        elem.classList.remove("hidden")
+        var p1 = document.getElementById('project3');
+        var p2 = document.getElementById('project2');
+        var p3 = document.getElementById('project1');
+        var p4 = document.getElementById('project4');
+        var name = document.getElementById('BudgetName');
+        name.classList.add("hidden")
+        p1.classList.remove("col")
+        p1.classList.remove("s6")
+        p1.classList.remove("layer")
+        p1.classList.add("center")
+        p2.classList.add("hidden")
+        p3.classList.add("hidden")
+        p4.classList.add("hidden")
+    };
+    const handleMouseOverCal = (event) => {
+        console.log("Calendar");
+        var elem = document.getElementById('calendarpara');
+        elem.classList.remove("hidden")
+        var p1 = document.getElementById('project4');
+        var p2 = document.getElementById('project2');
+        var p3 = document.getElementById('project3');
+        var p4 = document.getElementById('project1');
+        var name = document.getElementById('CalName');
+        name.classList.add("hidden")
+        p1.classList.remove("col")
+        p1.classList.remove("s6")
+        p1.classList.remove("layer")
+        p1.classList.add("center")
+        p2.classList.add("hidden")
+        p3.classList.add("hidden")
+        p4.classList.add("hidden")
     };
 
 
@@ -70,56 +139,56 @@ function ProjectContainer() {
 
             <div className="caveat-bold projectsContainer center row" >
                 {/* this is where the projects go */}
-                <div className="col s6 layer pads" onMouseEnter={handleMouseOver}>
+                <div className="col s6 layer pads" id="project1" onMouseEnter={handleMouseOverKis}>
                     <a href="https://lit-escarpment-01189.herokuapp.com/">
-                    <img src={kiskisphoto} alt="photo" id="project2"
-                        className="responsive-img hoverable bradius btnbtn "></img>
-                        </a>
+                        <img src={kiskisphoto} alt="photo" 
+                            className="responsive-img hoverable bradius btnbtn "></img>
+                    </a>
 
                     <p className="hidden" id="kiskispara">
                         "An Application designed to store your data securely!"
 
                     </p>
-                    <h4 className="center">KisKis</h4>
+                    <h4 className="center" id="KisKissName">KisKis</h4>
                 </div>
 
-                <div className="col s6 layer pads" onMouseEnter={handleMouseOver}>
+                <div className="col s6 layer pads" id="project2" onMouseEnter={handleMouseOverHor}>
 
-                <a href="https://samuel6roth.github.io/HoroscopeFinder/">
-                    <img src={horoscope} alt="photo" id="project2"
-                        className="responsive-img hoverable bradius btnbtn "></img>
-                        </a>
+                    <a href="https://samuel6roth.github.io/HoroscopeFinder/">
+                        <img src={horoscope} alt="photo" 
+                            className="responsive-img hoverable bradius btnbtn "></img>
+                    </a>
 
                     <p className="hidden" id="horoscopepara">
                         "An Application designed to give your your daily horoscope!"
 
                     </p>
-                    <h4 className="center">Horoscope Finder</h4>
+                    <h4 className="center" id="HoroscopeName">Horoscope Finder</h4>
                 </div>
 
-                <div className="col s6 layer pads" onMouseEnter={handleMouseOver}>
-                <a href="https://basicbudget.herokuapp.com/">
-                    <img src={budget} alt="photo" id="project2"
-                        className="responsive-img hoverable bradius btnbtn "></img>
-                        </a>
+                <div className="col s6 layer pads" id="project3" onMouseEnter={handleMouseOverBud}>
+                    <a href="https://basicbudget.herokuapp.com/">
+                        <img src={budget} alt="photo" 
+                            className="responsive-img hoverable bradius btnbtn "></img>
+                    </a>
 
                     <p className="hidden" id="budgetpara">
                         "An Application designed to help you budget your money"
 
                     </p>
-                    <h4 className="center">Basic Budget</h4>
+                    <h4 className="center" id="BudgetName">Basic Budget</h4>
                 </div>
-                <div className="col s6 layer pads" onMouseEnter={handleMouseOver}>
-                <a href="https://ianfletcher314.github.io/DailyCalendar/">
-                <img src={calendar} alt="photo" id="project2"
-            className="responsive-img hoverable bradius btnbtn "></img>
-            </a>
+                <div className="col s6 layer pads" id="project4" onMouseEnter={handleMouseOverCal}>
+                    <a href="https://ianfletcher314.github.io/DailyCalendar/">
+                        <img src={calendar} alt="photo" 
+                            className="responsive-img hoverable bradius btnbtn "></img>
+                    </a>
 
                     <p className="hidden" id="calendarpara">
                         "An Application designed to help you keep track of tasks"
 
                     </p>
-                    <h4 className="center">Daily Calendar</h4>
+                    <h4 className="center" id="CalName">Daily Calendar</h4>
                 </div>
 
 
