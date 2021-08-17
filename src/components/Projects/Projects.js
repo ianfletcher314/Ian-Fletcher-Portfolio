@@ -11,6 +11,9 @@ function Projects ({project}) {
         <a  href={project.url} >
         {project.photo}
         </a>
+        <p >
+            {project.para}
+        </p>
          <h4 className= "center">{project.appName}</h4>
        
         {/* <img src={project.photo} alt={project.appName} id="project2"
