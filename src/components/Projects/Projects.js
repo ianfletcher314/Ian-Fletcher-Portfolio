@@ -3,23 +3,20 @@
 import React from "react";
 import "./style.css";
 
-function Projects ({project}) {
-    return(
+function Projects({ project }) {
+    return (
         <div className="col s4 layer pads">
-         
-       
-        <a  href={project.url} >
-        {project.photo}
-        </a>
-        <p >
-            {project.para}
-        </p>
-         <h4 className= "center">{project.appName}</h4>
-       
-        {/* <img src={project.photo} alt={project.appName} id="project2"
-            class="col s6   responsive-img hoverable pads bradius layer btnbtn"></img> */}
-    </div>
+
+
+            <a href={project.url} >
+                {project.photo}
+            </a>
+            <p className="hidden">
+                {project.para}
+            </p>
+            <h4 className="center">{project.appName}</h4>
+        </div>
     )
 
-  }
-  export default Projects
+}
+export default Projects
