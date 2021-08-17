@@ -6,6 +6,7 @@ import "./style.css";
 function Projects ({project}) {
     return(
         <div className="col s4 layer pads">
+         
        
         <a  href={project.url} >
         {project.photo}
