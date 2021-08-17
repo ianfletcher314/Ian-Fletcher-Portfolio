@@ -76,6 +76,8 @@ function ProjectContainer() {
         p3.classList.add("hidden")
         p4.classList.add("hidden")
         elem.classList.remove("hidden")
+        var projects = document.getElementById('projects');
+        projects.classList.add("hidden")
     };
     const handleMouseOverHor = (event) => {
         console.log("Horoscope");
@@ -94,6 +96,8 @@ function ProjectContainer() {
         p2.classList.add("hidden")
         p3.classList.add("hidden")
         p4.classList.add("hidden")
+        var projects = document.getElementById('projects');
+        projects.classList.add("hidden")
     };
     const handleMouseOverBud = (event) => {
         console.log("Budget");
@@ -112,6 +116,8 @@ function ProjectContainer() {
         p2.classList.add("hidden")
         p3.classList.add("hidden")
         p4.classList.add("hidden")
+        var projects = document.getElementById('projects');
+        projects.classList.add("hidden")
     };
     const handleMouseOverCal = (event) => {
         console.log("Calendar");
@@ -130,16 +136,18 @@ function ProjectContainer() {
         p2.classList.add("hidden")
         p3.classList.add("hidden")
         p4.classList.add("hidden")
+        var projects = document.getElementById('projects');
+        projects.classList.add("hidden")
     };
 
 
     return (
         <div className="container">
-            <h2 className="center pink-text text-accent-1 Header" id="projects">PROJECTS</h2>
+            <h3 className="center pink-text text-accent-1 Header" id="projects">PROJECTS</h3>
 
             <div className="caveat-bold projectsContainer center row" >
                 {/* this is where the projects go */}
-                <div className="col s6 layer pads" id="project1" onMouseEnter={handleMouseOverKis}>
+                <div className="col s6 layer" id="project1" onMouseEnter={handleMouseOverKis}>
                     <a href="https://lit-escarpment-01189.herokuapp.com/">
                         <img src={kiskisphoto} alt="photo" 
                             className="responsive-img hoverable bradius btnbtn "></img>
@@ -149,10 +157,10 @@ function ProjectContainer() {
                         "An Application designed to store your data securely!"
 
                     </p>
-                    <h4 className="center" id="KisKissName">KisKis</h4>
+                    <h5 className="center flow-text" id="KisKissName">KisKis</h5>
                 </div>
 
-                <div className="col s6 layer pads" id="project2" onMouseEnter={handleMouseOverHor}>
+                <div className="col s6 layer" id="project2" onMouseEnter={handleMouseOverHor}>
 
                     <a href="https://samuel6roth.github.io/HoroscopeFinder/">
                         <img src={horoscope} alt="photo" 
@@ -163,10 +171,10 @@ function ProjectContainer() {
                         "An Application designed to give your your daily horoscope!"
 
                     </p>
-                    <h4 className="center" id="HoroscopeName">Horoscope Finder</h4>
+                    <h5 className="center flow-text" id="HoroscopeName">Horoscope Finder</h5>
                 </div>
 
-                <div className="col s6 layer pads" id="project3" onMouseEnter={handleMouseOverBud}>
+                <div className="col s6 layer" id="project3" onMouseEnter={handleMouseOverBud}>
                     <a href="https://basicbudget.herokuapp.com/">
                         <img src={budget} alt="photo" 
                             className="responsive-img hoverable bradius btnbtn "></img>
@@ -176,9 +184,9 @@ function ProjectContainer() {
                         "An Application designed to help you budget your money"
 
                     </p>
-                    <h4 className="center" id="BudgetName">Basic Budget</h4>
+                    <h5 className="center flow-text" id="BudgetName">Basic Budget</h5>
                 </div>
-                <div className="col s6 layer pads" id="project4" onMouseEnter={handleMouseOverCal}>
+                <div className="col s6 layer" id="project4" onMouseEnter={handleMouseOverCal}>
                     <a href="https://ianfletcher314.github.io/DailyCalendar/">
                         <img src={calendar} alt="photo" 
                             className="responsive-img hoverable bradius btnbtn "></img>
@@ -188,7 +196,7 @@ function ProjectContainer() {
                         "An Application designed to help you keep track of tasks"
 
                     </p>
-                    <h4 className="center" id="CalName">Daily Calendar</h4>
+                    <h5 className="center flow-text" id="CalName">Daily Calendar</h5>
                 </div>
 
 

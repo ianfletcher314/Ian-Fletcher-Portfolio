@@ -8,7 +8,7 @@ import ian from "../../images/ian2.jpg"
 function About() {
     return (
         <div className="row container">
-            <h2 className="Header center purple-text text-lighten-3 col s12" id="about">ABOUT ME</h2>
+            <h3 className="Header center purple-text text-lighten-3 col s12" id="about">ABOUT ME</h3>
             <section className="container caveat-bold aboutContainer col s12">
 
                 <p className="aboutMeText caveat flow-text grey-text text-darken-3 ">
