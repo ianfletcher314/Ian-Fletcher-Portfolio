@@ -181,7 +181,46 @@ function ProjectContainer() {
         var projects = document.getElementById('projects');
         projects.classList.remove("hidden")
     };
-    
+    const handleMouseLeaveBud = (event) => {
+        console.log("Budget");
+        var elem = document.getElementById('budgetpara');
+        elem.classList.add("hidden")
+        var p1 = document.getElementById('project3');
+        var p2 = document.getElementById('project2');
+        var p3 = document.getElementById('project1');
+        var p4 = document.getElementById('project4');
+        var name = document.getElementById('BudgetName');
+        name.classList.remove("hidden")
+        p1.classList.add("col")
+        p1.classList.add("s6")
+        p1.classList.add("layer")
+        p1.classList.remove("center")
+        p2.classList.remove("hidden")
+        p3.classList.remove("hidden")
+        p4.classList.remove("hidden")
+        var projects = document.getElementById('projects');
+        projects.classList.remove("hidden")
+    };
+    const handleMouseLeaveCal = (event) => {
+        console.log("Calendar");
+        var elem = document.getElementById('calendarpara');
+        elem.classList.add("hidden")
+        var p1 = document.getElementById('project4');
+        var p2 = document.getElementById('project2');
+        var p3 = document.getElementById('project3');
+        var p4 = document.getElementById('project1');
+        var name = document.getElementById('CalName');
+        name.classList.remove("hidden")
+        p1.classList.add("col")
+        p1.classList.add("s6")
+        p1.classList.add("layer")
+        p1.classList.remove("center")
+        p2.classList.remove("hidden")
+        p3.classList.remove("hidden")
+        p4.classList.remove("hidden")
+        var projects = document.getElementById('projects');
+        projects.classList.remove("hidden")
+    };
 
 
     return (
@@ -219,7 +258,8 @@ function ProjectContainer() {
                     <h5 className="center flow-text" id="HoroscopeName">Horoscope Finder</h5>
                 </div>
 
-                <div className="col s6 layer" id="project3" onMouseEnter={handleMouseOverBud}>
+                <div className="col s6 layer" id="project3" 
+                onMouseEnter={handleMouseOverBud} onMouseLeave={handleMouseLeaveBud}>
                     <a href="https://basicbudget.herokuapp.com/">
                         <img src={budget} alt="photo" 
                             className="responsive-img hoverable bradius btnbtn "></img>
@@ -231,7 +271,8 @@ function ProjectContainer() {
                     </p>
                     <h5 className="center flow-text" id="BudgetName">Basic Budget</h5>
                 </div>
-                <div className="col s6 layer" id="project4" onMouseEnter={handleMouseOverCal}>
+                <div className="col s6 layer" id="project4" 
+                onMouseEnter={handleMouseOverCal} onMouseLeave={handleMouseLeaveCal}>
                     <a href="https://ianfletcher314.github.io/DailyCalendar/">
                         <img src={calendar} alt="photo" 
                             className="responsive-img hoverable bradius btnbtn "></img>
