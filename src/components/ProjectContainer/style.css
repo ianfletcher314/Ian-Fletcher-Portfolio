@@ -6,7 +6,9 @@
 .mobileimage{
     max-width: 50%!important;
 }
-
+.smaller{
+    width:85%;
+}
 .aboutContainer{
     background-color: #f3e6f5;
     border-radius: 50px!important;
