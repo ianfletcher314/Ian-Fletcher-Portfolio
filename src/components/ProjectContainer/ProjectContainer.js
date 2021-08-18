@@ -59,6 +59,7 @@ function ProjectContainer() {
 
     }
     ]
+    // This is where the scroll animation is handled!
     const handleMouseOverKis = (event) => {
         console.log("KisKis");
         var elem = document.getElementById('kiskispara');
@@ -160,6 +161,27 @@ function ProjectContainer() {
         var projects = document.getElementById('projects');
         projects.classList.remove("hidden")
     }
+    const handleMouseLeaveHor = (event) => {
+        console.log("Horoscope");
+        var elem = document.getElementById('horoscopepara');
+        elem.classList.add("hidden")
+        var p1 = document.getElementById('project2');
+        var p2 = document.getElementById('project1');
+        var p3 = document.getElementById('project3');
+        var p4 = document.getElementById('project4');
+        var name = document.getElementById('HoroscopeName');
+        name.classList.remove("hidden")
+        p1.classList.add("col")
+        p1.classList.add("s6")
+        p1.classList.add("layer")
+        p1.classList.remove("center")
+        p2.classList.remove("hidden")
+        p3.classList.remove("hidden")
+        p4.classList.remove("hidden")
+        var projects = document.getElementById('projects');
+        projects.classList.remove("hidden")
+    };
+    
 
 
     return (
@@ -182,7 +204,8 @@ function ProjectContainer() {
                     <h5 className="center flow-text" id="KisKissName">KisKis</h5>
                 </div>
 
-                <div className="col s6 layer" id="project2" onMouseEnter={handleMouseOverHor}>
+                <div className="col s6 layer" id="project2" 
+                onMouseEnter={handleMouseOverHor} onMouseLeave={handleMouseLeaveHor}>
 
                     <a href="https://samuel6roth.github.io/HoroscopeFinder/">
                         <img src={horoscope} alt="photo" 
