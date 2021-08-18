@@ -139,6 +139,27 @@ function ProjectContainer() {
         var projects = document.getElementById('projects');
         projects.classList.add("hidden")
     };
+    
+    const handleMouseLeaveKis = () =>{
+        console.log("KisKis");
+        var elem = document.getElementById('kiskispara');
+        var p1 = document.getElementById('project1');
+        var p2 = document.getElementById('project2');
+        var p3 = document.getElementById('project3');
+        var p4 = document.getElementById('project4');
+        var name = document.getElementById('KisKissName');
+        name.classList.remove("hidden")
+        p1.classList.add("col")
+        p1.classList.add("s6")
+        p1.classList.add("layer")
+        p1.classList.remove("center")
+        p2.classList.remove("hidden")
+        p3.classList.remove("hidden")
+        p4.classList.remove("hidden")
+        elem.classList.add("hidden")
+        var projects = document.getElementById('projects');
+        projects.classList.remove("hidden")
+    }
 
 
     return (
@@ -147,7 +168,8 @@ function ProjectContainer() {
 
             <div className="caveat-bold projectsContainer center row" >
                 {/* this is where the projects go */}
-                <div className="col s6 layer" id="project1" onMouseEnter={handleMouseOverKis}>
+                <div className="col s6 layer" id="project1" 
+                onMouseEnter={handleMouseOverKis} onMouseLeave={handleMouseLeaveKis}>
                     <a href="https://lit-escarpment-01189.herokuapp.com/">
                         <img src={kiskisphoto} alt="photo" 
                             className="responsive-img hoverable bradius btnbtn "></img>
