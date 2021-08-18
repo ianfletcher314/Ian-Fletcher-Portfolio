@@ -271,7 +271,7 @@ function ProjectContainer() {
 
                     <div className="hidden" id="horoscopepara">
                         <h4>Horoscope Finder</h4>
-                        <p>Displays the user’s daily horoscope and an inspirational quote depending zodiac sign.</p>
+                        <p>Displays the user’s daily horoscope and an inspirational quote depending on their zodiac sign.</p>
                         <h6> HTML / CSS / JS / Moment.js / Materialize / Aztro API / Daily Quotes API</h6>
                     </div>
                     <h5 className="center flow-text" id="HoroscopeName">Horoscope Finder</h5>
@@ -301,7 +301,7 @@ function ProjectContainer() {
                     <div className="hidden" id="calendarpara">
                         <h4>HappyHealth</h4>
                         <p>Provides multiple healthy meal options based upon the number of calories the user wants to consume.</p>
-                        <h6>Mongo DB / Express / React / Node Js / Bcrypt / Material UI / connect-mongo</h6>
+                        <h6>Mongo DB / Express / React / Node Js / Bcrypt / Material UI / Connect-Mongo</h6>
                     </div>
                     <h5 className="center flow-text" id="CalName">Daily Calendar</h5>
                 </div>
