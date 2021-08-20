@@ -76,6 +76,8 @@ function ProjectContainer() {
         p1.classList.add("center")
         var link = document.getElementById('kislink');
         link.classList.add("center")
+        link.classList.remove("smaller")
+        link.classList.add("smallest")
         p2.classList.add("hidden")
         p3.classList.add("hidden")
         p4.classList.add("hidden")
@@ -94,6 +96,8 @@ function ProjectContainer() {
         var name = document.getElementById('HoroscopeName');
         var link = document.getElementById('horlink');
         link.classList.add("center")
+        link.classList.remove("smaller")
+        link.classList.add("smallest")
         name.classList.add("hidden")
         p1.classList.remove("col")
         p1.classList.remove("s6")
@@ -116,6 +120,8 @@ function ProjectContainer() {
         var name = document.getElementById('BudgetName');
         var link = document.getElementById('budlink');
         link.classList.add("center")
+        link.classList.remove("smaller")
+        link.classList.add("smallest")
         name.classList.add("hidden")
         p1.classList.remove("col")
         p1.classList.remove("s6")
@@ -138,6 +144,8 @@ function ProjectContainer() {
         var name = document.getElementById('CalName');
         var link = document.getElementById('haplink');
         link.classList.add("center")
+        link.classList.remove("smaller")
+        link.classList.add("smallest")
         name.classList.add("hidden")
         p1.classList.remove("col")
         p1.classList.remove("s6")
@@ -160,6 +168,8 @@ function ProjectContainer() {
         var name = document.getElementById('KisKissName');
         var link = document.getElementById('kislink');
         link.classList.remove("center")
+        link.classList.add("smaller")
+        link.classList.remove("smallest")
         name.classList.remove("hidden")
         p1.classList.add("col")
         p1.classList.add("s6")
@@ -183,6 +193,8 @@ function ProjectContainer() {
         var name = document.getElementById('HoroscopeName');
         var link = document.getElementById('horlink');
         link.classList.remove("center")
+        link.classList.add("smaller")
+        link.classList.remove("smallest")
         name.classList.remove("hidden")
         p1.classList.add("col")
         p1.classList.add("s6")
@@ -205,6 +217,8 @@ function ProjectContainer() {
         var name = document.getElementById('BudgetName');
         var link = document.getElementById('budlink');
         link.classList.remove("center")
+        link.classList.add("smaller")
+        link.classList.remove("smallest")
         name.classList.remove("hidden")
         p1.classList.add("col")
         p1.classList.add("s6")
@@ -227,6 +241,8 @@ function ProjectContainer() {
         var name = document.getElementById('CalName');
         var link = document.getElementById('haplink');
         link.classList.remove("center")
+        link.classList.add("smaller")
+        link.classList.remove("smallest")
         name.classList.remove("hidden")
         p1.classList.add("col")
         p1.classList.add("s6")
@@ -257,6 +273,9 @@ function ProjectContainer() {
                         <h4>KisKis</h4>
                         <p>Stores any personal information securely in your own personal encrypted password and information hub.</p>
                         <h6>Node Js / Express-Handlebars / MySqul / Cryptr / Materialize / CSS</h6>
+                        <a className="nonlink " href="https://github.com/ianfletcher314/kiskis">GITHUB</a> 
+                        <p className="noheight"></p> 
+                        <a className="nonlink " href="https://lit-escarpment-01189.herokuapp.com/"> DEPLOYED SITE</a>
                     </div>
                     <h5 className="center flow-text" id="KisKissName">KisKis</h5>
                 </div>
@@ -273,6 +292,9 @@ function ProjectContainer() {
                         <h4>Horoscope Finder</h4>
                         <p>Displays the user’s daily horoscope and an inspirational quote depending on their zodiac sign.</p>
                         <h6> HTML / CSS / JS / Moment.js / Materialize / Aztro API / Daily Quotes API</h6>
+                        <a className="nonlink " href="https://github.com/ianfletcher314/HoroscopeFinder">GITHUB</a> 
+                        <p className="noheight"></p> 
+                        <a className="nonlink " href="https://samuel6roth.github.io/HoroscopeFinder/"> DEPLOYED SITE</a>
                     </div>
                     <h5 className="center flow-text" id="HoroscopeName">Horoscope Finder</h5>
                 </div>
@@ -285,9 +307,12 @@ function ProjectContainer() {
                     </a>
 
                     <div className="hidden" id="budgetpara">
-                        <h4>Budget Tracker</h4>
+                        <h4>Basic Budget</h4>
                         <p>Tracks a user’s income and spending in an easy to read chart with online and offline data storage.</p>
                         <h6>HTML / CSS / Node JS / Mongo DB / Indexed DB</h6>
+                        <a className="nonlink " href="https://github.com/ianfletcher314/BasicBudget">GITHUB</a> 
+                        <p className="noheight"></p> 
+                        <a className="nonlink " href="https://basicbudget.herokuapp.com/"> DEPLOYED SITE</a>
                     </div>
                     <h5 className="center flow-text" id="BudgetName">Basic Budget</h5>
                 </div>
@@ -302,6 +327,12 @@ function ProjectContainer() {
                         <h4>HappyHealth</h4>
                         <p>Provides multiple healthy meal options based upon the number of calories the user wants to consume.</p>
                         <h6>Mongo DB / Express / React / Node Js / Bcrypt / Material UI / Connect-Mongo</h6>
+                        <a className="nonlink " href="https://github.com/ianfletcher314/happyhealth">GITHUB</a> 
+                        <p className="noheight"></p> 
+                        <a className="nonlink " href="https://happyhealth404.herokuapp.com/"> DEPLOYED SITE</a>
+                   
+                       
+                      
                     </div>
                     <h5 className="center flow-text" id="CalName">Daily Calendar</h5>
                 </div>
