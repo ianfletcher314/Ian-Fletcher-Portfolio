@@ -262,6 +262,28 @@ function ProjectContainer() {
 
             <div className="caveat-bold projectsContainer center row" >
                 {/* this is where the projects go */}
+                <div className="col s6 layer" id="project4"
+                    onMouseEnter={handleMouseOverCal} onMouseLeave={handleMouseLeaveCal}>
+                    <a href="https://happyhealth404.herokuapp.com/">
+                        <img src={calendar} alt="photo"
+                            className="responsive-img hoverable bradius btnbtn smaller" id="haplink"></img>
+                    </a>
+
+                    <div className="hidden" id="calendarpara">
+                        <h4>HappyHealth</h4>
+                        <p>Provides multiple healthy meal options based upon the number of calories the user wants to consume.</p>
+                        <h6>Mongo DB / Express / React / Node Js / Bcrypt / Material UI / Connect-Mongo</h6>
+                        <a className="nonlink " href="https://github.com/ianfletcher314/happyhealth">GITHUB</a> 
+                        <p className="noheight"></p> 
+                        <a className="nonlink " href="https://happyhealth404.herokuapp.com/"> DEPLOYED SITE</a>
+                   
+                       
+                      
+                    </div>
+                    <h5 className="center flow-text" id="CalName">HappyHealth</h5>
+                </div>
+
+
                 <div className="col s6 layer" id="project1"
                     onMouseEnter={handleMouseOverKis} onMouseLeave={handleMouseLeaveKis}>
                     <a href="https://lit-escarpment-01189.herokuapp.com/">
@@ -316,27 +338,7 @@ function ProjectContainer() {
                     </div>
                     <h5 className="center flow-text" id="BudgetName">Basic Budget</h5>
                 </div>
-                <div className="col s6 layer" id="project4"
-                    onMouseEnter={handleMouseOverCal} onMouseLeave={handleMouseLeaveCal}>
-                    <a href="https://happyhealth404.herokuapp.com/">
-                        <img src={calendar} alt="photo"
-                            className="responsive-img hoverable bradius btnbtn smaller" id="haplink"></img>
-                    </a>
-
-                    <div className="hidden" id="calendarpara">
-                        <h4>HappyHealth</h4>
-                        <p>Provides multiple healthy meal options based upon the number of calories the user wants to consume.</p>
-                        <h6>Mongo DB / Express / React / Node Js / Bcrypt / Material UI / Connect-Mongo</h6>
-                        <a className="nonlink " href="https://github.com/ianfletcher314/happyhealth">GITHUB</a> 
-                        <p className="noheight"></p> 
-                        <a className="nonlink " href="https://happyhealth404.herokuapp.com/"> DEPLOYED SITE</a>
-                   
-                       
-                      
-                    </div>
-                    <h5 className="center flow-text" id="CalName">Daily Calendar</h5>
-                </div>
-
+                
 
 
             </div>
