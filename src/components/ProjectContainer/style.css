@@ -6,7 +6,12 @@
 .mobileimage{
     max-width: 50%!important;
 }
-
+.smaller{
+    width:85%;
+}
+.smallest{
+    width:75%;
+}
 .aboutContainer{
     background-color: #f3e6f5;
     border-radius: 50px!important;
@@ -87,11 +92,22 @@
     transform: translateY(-10px)!important;
   }
 
-  .pattern{
+.pattern{
     height: 20px;
     width: 20px;
 }
 .Header{
     margin-top: 2%;
     margin-bottom: 2%;
+}
+.nonlink{
+    color: grey;
+    font-style: italic;
+}
+.noheight{
+    height:0%;
+    margin:0%;
+}
+.z{
+    z-index: +1;
 }

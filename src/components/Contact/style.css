@@ -26,6 +26,13 @@
     padding-right: 4%;
 
 }
+.iconicon{
+    height:310px;
+    width:310px;
+    padding-left: 4%;
+    padding-right: 4%;
+
+}
 .contact{
     transition: transform 250ms!important;
 }
