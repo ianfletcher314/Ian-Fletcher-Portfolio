@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.3827b31d.chunk.css",
-    "main.js": "/portfolio/static/js/main.6be1f77a.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.6be1f77a.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.87290e39.chunk.css",
+    "main.js": "/portfolio/static/js/main.ae268b9f.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.ae268b9f.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.5791c764.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.5791c764.js.map",
     "static/js/2.f1699800.chunk.js": "/portfolio/static/js/2.f1699800.chunk.js",
@@ -10,24 +10,24 @@
     "static/js/3.5a30146b.chunk.js": "/portfolio/static/js/3.5a30146b.chunk.js",
     "static/js/3.5a30146b.chunk.js.map": "/portfolio/static/js/3.5a30146b.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.3827b31d.chunk.css.map": "/portfolio/static/css/main.3827b31d.chunk.css.map",
+    "static/css/main.87290e39.chunk.css.map": "/portfolio/static/css/main.87290e39.chunk.css.map",
     "static/js/2.f1699800.chunk.js.LICENSE.txt": "/portfolio/static/js/2.f1699800.chunk.js.LICENSE.txt",
     "static/media/Project2.f1302205.png": "/portfolio/static/media/Project2.f1302205.png",
     "static/media/Project33.38143518.PNG": "/portfolio/static/media/Project33.38143518.PNG",
     "static/media/basicbudget.d28fcbea.png": "/portfolio/static/media/basicbudget.d28fcbea.png",
-    "static/media/calendar.ec5f9152.png": "/portfolio/static/media/calendar.ec5f9152.png",
     "static/media/directory.065af73d.png": "/portfolio/static/media/directory.065af73d.png",
     "static/media/doc.c5b9948f.png": "/portfolio/static/media/doc.c5b9948f.png",
     "static/media/email.19b23f57.png": "/portfolio/static/media/email.19b23f57.png",
     "static/media/fitness.b5bf2c1b.png": "/portfolio/static/media/fitness.b5bf2c1b.png",
-    "static/media/git.8e0be201.png": "/portfolio/static/media/git.8e0be201.png",
+    "static/media/gitgitgit.9628f9c7.png": "/portfolio/static/media/gitgitgit.9628f9c7.png",
+    "static/media/happyhealth.d7f27281.png": "/portfolio/static/media/happyhealth.d7f27281.png",
     "static/media/ian2.1a0a74d8.jpg": "/portfolio/static/media/ian2.1a0a74d8.jpg",
-    "static/media/linkedin.4eb828f8.png": "/portfolio/static/media/linkedin.4eb828f8.png"
+    "static/media/lili.bad20a55.png": "/portfolio/static/media/lili.bad20a55.png"
   },
   "entrypoints": [
     "static/js/runtime-main.5791c764.js",
     "static/js/2.f1699800.chunk.js",
-    "static/css/main.3827b31d.chunk.css",
-    "static/js/main.6be1f77a.chunk.js"
+    "static/css/main.87290e39.chunk.css",
+    "static/js/main.ae268b9f.chunk.js"
   ]
 }
