@@ -7,21 +7,27 @@ import ian from "../../images/ian2.jpg"
 
 function About() {
     return (
-        <div className="row container">
-            <h3 className="Header center purple-text text-lighten-3 col s12" id="about">ABOUT ME</h3>
-            <section className="container caveat-bold aboutContainer col s12">
+        
+        <div className="row ">
+            <h3 className="Header center purple-text text-lighten-3 col s12 " id="about">ABOUT ME</h3>
+            <img className="col s4 push-s1 responsive-image pic" src={ian}></img>
+            <section className="container flow-text caveat-bold aboutContainer col s6 push-s1 ">
 
-                <p className="aboutMeText caveat flow-text grey-text text-darken-3 ">
-                    I am a full stack developer located in the St. Louis area specializing in Web Design and maintenance. After
-                    years of working in the music industry both on and off stage I realized it was time to make a change so I
-                    enrolled in a 24-week coding intensive at Washington University in early 2021. With the goal of making a professional looking websites for my
-                    own musical ventures, I quickly grew a passion for creating portfolio pages for the artists I know and love.
+                <p className="aboutMeText caveat grey-text text-darken-3 ">
+                    I am a full stack developer located in the St. Louis area specializing in Web Design and Sales. With the goal of making a professional looking websites for my
+                    own musical ventures, I quickly grew a passion for building applications and learning new skills. 
                     I like to get to know my clients a little bit before designing for them so please feel free to contact me
                     bellow so we can discuss your ideas!
                 </p>
 
             </section>
-            {/* <img className="col s4 pull-s8 container circle responsive-img" src={ian}></img> */}
+            {/* <div className="aboutMeText caveat grey-text text-darken-3 col s5 pull-s1 aboutContainer2 up">
+                  <a href="mailto: ianfletcher314@gmail.com"> ianfletcher314@gmail.com</a>
+                  <a href="tel:3146100329" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><p class="call-button">314-610-0329</p></a>
+                  <a href="https://www.linkedin.com/in/ian-fletcher-a51420124/">https://www.linkedin.com/in/ian-fletcher-a51420124/</a>
+
+                </div> */}
+           
         </div>
     );
 }
