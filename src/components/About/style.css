@@ -16,6 +16,9 @@
     padding: 50px!important;
     margin-bottom: 5%!important;
 }
+.z{
+    z-index: -3;
+}
 .aboutMeText{
     margin-top: 1%;
     margin-bottom: 1%;
@@ -26,18 +29,14 @@
 }
 .pic{
     margin-top:6%;
-    clip-path: ellipse(34% 50% at 50% 50%);
-
-
-
-
-
-
-
-
+    clip-path: polygon(33% 0, 70% 0, 90% 20%, 90% 80%, 70% 100%, 33% 100%, 13% 80%, 13% 20%);
+  
 
 }
 .up{
     transform:translateY(-130%);
     /* transform:translateX(40%) */
+}
+.right{
+    transform: translateX(1%);
 }

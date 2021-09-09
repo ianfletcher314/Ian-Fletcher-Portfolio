@@ -10,7 +10,7 @@ function About() {
         
         <div className="row ">
             <h3 className="Header center purple-text text-lighten-3 col s12 " id="about">ABOUT ME</h3>
-            <img className="col s4 push-s1 responsive-image pic" src={ian}></img>
+            <img className="col s4 push-s1 responsive-image pic z" src={ian}></img>
             <section className="container flow-text caveat-bold aboutContainer col s6 push-s1 ">
 
                 <p className="aboutMeText caveat grey-text text-darken-3 ">
