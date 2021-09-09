@@ -4,7 +4,6 @@ import React from "react"
 import kiskisphoto from "../../images/Project2.png"
 import horoscope from "../../images/Project33.PNG"
 import budget from "../../images/basicbudget.png"
-import directory from "../../images/directory.png"
 import calendar from "../../images/happyhealth.png"
 
 import "./style.css";
