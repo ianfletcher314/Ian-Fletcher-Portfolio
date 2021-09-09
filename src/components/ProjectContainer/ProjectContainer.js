@@ -1,5 +1,5 @@
 import React from "react"
-import Projects from "../Projects/Projects"
+
 // import Test from "../Test/test"
 import kiskisphoto from "../../images/Project2.png"
 import horoscope from "../../images/Project33.PNG"

@@ -40,3 +40,6 @@
 .right{
     transform: translateX(1%);
 }
+.hidden{
+    display: none;
+}
