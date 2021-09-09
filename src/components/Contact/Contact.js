@@ -6,6 +6,7 @@ import git from "../../images/gitgitgit.png"
 import doc from "../../images/doc.png"
 import link from "../../images/lili.png"
 import mail from "../../images/email.png"
+import resume from "../../images/IanFletcherDevelopmentResume.pdf"
 
 function Contact() {
     return (
@@ -19,7 +20,7 @@ function Contact() {
 
                 
 
-                <a className="center grey-text text-accent-3 contact" href="images/IanFletcher-Resume.pdf" target="_blank"
+                <a className="center grey-text text-accent-3 contact" href={resume} target="_blank"
                     download>RESUME
                     <img src={doc} className="responsive-img icon"></img></a>
 
