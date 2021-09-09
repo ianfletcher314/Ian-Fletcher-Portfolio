@@ -14,7 +14,6 @@ function ProjectContainer() {
     const handleMouseOverKis = (event) => {
         console.log("KisKis");
         var elem = document.getElementById('kiskispara');
-     
         var p1 = document.getElementById('project1');
         var p2 = document.getElementById('project2');
         var p3 = document.getElementById('project3');
@@ -219,7 +218,6 @@ function ProjectContainer() {
                         <img src={calendar} alt="photo"
                             className="responsive-img hoverable bradius btnbtn smaller" id="haplink"></img>
                     </a>
-
                     <div className="hidden" id="calendarpara">
                         <h4>HappyHealth</h4>
                         <p>Provides multiple healthy meal options based upon the number of calories the user wants to consume.</p>
@@ -227,13 +225,10 @@ function ProjectContainer() {
                         <a className="nonlink " href="https://github.com/ianfletcher314/happyhealth">GITHUB</a> 
                         <p className="noheight"></p> 
                         <a className="nonlink " href="https://happyhealth404.herokuapp.com/"> DEPLOYED SITE</a>
-                   
-                       
-                      
+
                     </div>
                     <h5 className="center flow-text" id="CalName">HappyHealth</h5>
                 </div>
-
 
                 <div className="col s6 layer" id="project1"
                     onMouseEnter={handleMouseOverKis} onMouseLeave={handleMouseLeaveKis}>
@@ -289,9 +284,6 @@ function ProjectContainer() {
                     </div>
                     <h5 className="center flow-text" id="BudgetName">Basic Budget</h5>
                 </div>
-                
-
-
             </div>
         </div>
     )
