@@ -5,7 +5,8 @@
     border-color: #ce93d8!important;
     border-width: 5px!important;
     /* padding: 50px!important; */
-    margin-bottom: 5%!important;
+    /* margin-bottom: 5%!important; */
+     margin-top: 2%!important;
 }
 .aboutContainer2{
     background-color: #f3e6f5;
@@ -14,7 +15,7 @@
     border-color: #ce93d8!important;
     border-width: 5px!important;
     padding: 50px!important;
-    margin-bottom: 5%!important;
+    /* margin-bottom: 5%!important; */
 }
 .z{
     z-index: -3;
@@ -28,7 +29,7 @@
     margin-bottom: 2%;
 }
 .pic{
-    margin-top:6%;
+    margin-top:3%;
     clip-path: polygon(33% 0, 70% 0, 90% 20%, 90% 80%, 70% 100%, 33% 100%, 13% 80%, 13% 20%);
   
 
