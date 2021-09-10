@@ -4,8 +4,19 @@
 import React from "react";
 import "./style.css";
 import ian from "../../images/ian2.jpg"
+import M from 'materialize-css'
 
 function About() {
+    const handleMouseOverContactBtn =() =>{
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.fixed-action-btn');
+            var instances = M.FloatingActionButton.init(elems, {
+              direction: 'left',
+              hoverEnabled: false
+            });
+          });;
+                
+    } 
     return (
 
         <div className="row ">
@@ -32,7 +43,7 @@ function About() {
 
             </section>
             <div class="fixed-action-btn">
-                <a class="btn-floating btn-large red">
+                <a class="btn-floating btn-large green accent-2 " onMouseEnter={handleMouseOverContactBtn}>
                     <i class="large material-icons">mode_edit</i>
                 </a>
                 <ul>
