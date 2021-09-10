@@ -26,8 +26,8 @@ function ProjectContainer() {
         p1.classList.add("center")
         var link = document.getElementById('kislink');
         link.classList.add("center")
-        link.classList.remove("smaller")
-        link.classList.add("smallest")
+        // link.classList.remove("smaller")
+        // link.classList.add("smallest")
         p2.classList.add("hidden")
         p3.classList.add("hidden")
         p4.classList.add("hidden")
@@ -46,8 +46,8 @@ function ProjectContainer() {
         var name = document.getElementById('HoroscopeName');
         var link = document.getElementById('horlink');
         link.classList.add("center")
-        link.classList.remove("smaller")
-        link.classList.add("smallest")
+        // link.classList.remove("smaller")
+        // link.classList.add("smallest")
         name.classList.add("hidden")
         p1.classList.remove("col")
         p1.classList.remove("s6")
@@ -70,8 +70,8 @@ function ProjectContainer() {
         var name = document.getElementById('BudgetName');
         var link = document.getElementById('budlink');
         link.classList.add("center")
-        link.classList.remove("smaller")
-        link.classList.add("smallest")
+        // link.classList.remove("smaller")
+        // link.classList.add("smallest")
         name.classList.add("hidden")
         p1.classList.remove("col")
         p1.classList.remove("s6")
@@ -94,8 +94,8 @@ function ProjectContainer() {
         var name = document.getElementById('CalName');
         var link = document.getElementById('haplink');
         link.classList.add("center")
-        link.classList.remove("smaller")
-        link.classList.add("smallest")
+        // link.classList.remove("smaller")
+        // link.classList.add("smallest")
         name.classList.add("hidden")
         p1.classList.remove("col")
         p1.classList.remove("s6")
@@ -118,8 +118,8 @@ function ProjectContainer() {
         var name = document.getElementById('KisKissName');
         var link = document.getElementById('kislink');
         link.classList.remove("center")
-        link.classList.add("smaller")
-        link.classList.remove("smallest")
+        // link.classList.add("smaller")
+        // link.classList.remove("smallest")
         name.classList.remove("hidden")
         p1.classList.add("col")
         p1.classList.add("s6")
@@ -143,8 +143,8 @@ function ProjectContainer() {
         var name = document.getElementById('HoroscopeName');
         var link = document.getElementById('horlink');
         link.classList.remove("center")
-        link.classList.add("smaller")
-        link.classList.remove("smallest")
+        // link.classList.add("smaller")
+        // link.classList.remove("smallest")
         name.classList.remove("hidden")
         p1.classList.add("col")
         p1.classList.add("s6")
@@ -167,8 +167,8 @@ function ProjectContainer() {
         var name = document.getElementById('BudgetName');
         var link = document.getElementById('budlink');
         link.classList.remove("center")
-        link.classList.add("smaller")
-        link.classList.remove("smallest")
+        // link.classList.add("smaller")
+        // link.classList.remove("smallest")
         name.classList.remove("hidden")
         p1.classList.add("col")
         p1.classList.add("s6")
@@ -191,8 +191,8 @@ function ProjectContainer() {
         var name = document.getElementById('CalName');
         var link = document.getElementById('haplink');
         link.classList.remove("center")
-        link.classList.add("smaller")
-        link.classList.remove("smallest")
+        // link.classList.add("smaller")
+        // link.classList.remove("smallest")
         name.classList.remove("hidden")
         p1.classList.add("col")
         p1.classList.add("s6")
@@ -216,7 +216,7 @@ function ProjectContainer() {
                     onMouseEnter={handleMouseOverCal} onMouseLeave={handleMouseLeaveCal}>
                     <a href="https://happyhealth404.herokuapp.com/">
                         <img src={calendar} alt="photo"
-                            className="responsive-img hoverable bradius btnbtn smaller" id="haplink"></img>
+                            className="responsive-img hoverable bradius btnbtn smallest" id="haplink"></img>
                     </a>
                     <div className="hidden" id="calendarpara">
                         <h4>HappyHealth</h4>
@@ -234,7 +234,7 @@ function ProjectContainer() {
                     onMouseEnter={handleMouseOverKis} onMouseLeave={handleMouseLeaveKis}>
                     <a href="https://lit-escarpment-01189.herokuapp.com/">
                         <img src={kiskisphoto} alt="photo"
-                            className="responsive-img hoverable bradius btnbtn smaller" id="kislink"></img>
+                            className="responsive-img hoverable bradius btnbtn smallest" id="kislink"></img>
                     </a>
 
                     <div className="hidden" id="kiskispara">
@@ -253,7 +253,7 @@ function ProjectContainer() {
 
                     <a href="https://samuel6roth.github.io/HoroscopeFinder/">
                         <img src={horoscope} alt="photo"
-                            className="responsive-img hoverable bradius btnbtn smaller " id="horlink"></img>
+                            className="responsive-img hoverable bradius btnbtn smallest " id="horlink"></img>
                     </a>
 
                     <div className="hidden" id="horoscopepara">
@@ -271,7 +271,7 @@ function ProjectContainer() {
                     onMouseEnter={handleMouseOverBud} onMouseLeave={handleMouseLeaveBud}>
                     <a href="https://basicbudget.herokuapp.com/">
                         <img src={budget} alt="photo"
-                            className="responsive-img hoverable bradius btnbtn smaller" id="budlink"></img>
+                            className="responsive-img hoverable bradius btnbtn smallest" id="budlink"></img>
                     </a>
 
                     <div className="hidden" id="budgetpara">
