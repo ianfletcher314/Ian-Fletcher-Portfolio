@@ -11,7 +11,7 @@ import resume from "../../images/IanFletcherDevelopmentResume.pdf"
 function Contact() {
     return (
         <div>
-        <h3 className="Contactheader center cyan-text text-accent-3 Header">CONTACT</h3>
+        <h3 className="Contactheader center cyan-text text-accent-3 Header">CONTACT ME</h3>
 
             <section id="contact" className="container caveat-bold center space roof">
             <a className="center grey-text text-accent-3 contact" href="https://github.com/ianfletcher314" target="_blank"
