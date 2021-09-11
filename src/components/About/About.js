@@ -7,18 +7,22 @@ import ian from "../../images/ian2.jpg"
 import M from 'materialize-css'
 
 function About() {
-    // const handleMouseOverContactBtn =() =>{
-    //     document.addEventListener('DOMContentLoaded', function() {
-    //         var elems = document.querySelectorAll('.fixed-action-btn');
-    //         var instances = M.FloatingActionButton.init(elems, {
-    //           direction: 'top',
-    //           hoverEnabled: true
-    //         });
+    const handleMouseOverContactBtn =(event) =>{
+        console.log("scrolled over green button")
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.fixed-action-btn');
+            var instances = M.FloatingActionButton.init(elems, {
+              direction: 'top',
+              hoverEnabled: true,
+              toolbarEnabled:false
+            });
+            var instance = M.FloatingActionButton.getInstance(elems);
             
-            
-    //       });;
+            instance.open();
+          });;
+          
                 
-    // } 
+    } 
     return (
 
         <div className="row ">
@@ -44,7 +48,7 @@ function About() {
                 </p>
 
             </section>
-            <div class="fixed-action-btn">
+            <div class="fixed-action-btn" onMouseEnter={handleMouseOverContactBtn}>
                 <a class="btn-floating btn-large green accent-2 " >
                     <i class="large material-icons">mode_edit</i>
                 </a>
@@ -55,6 +59,8 @@ function About() {
                     <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
                 </ul>
             </div>
+            
+            
 
         </div>
         
