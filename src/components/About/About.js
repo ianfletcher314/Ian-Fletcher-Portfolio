@@ -9,20 +9,14 @@ import M from 'materialize-css'
 function About() {
     const handleMouseOverContactBtn =(event) =>{
         console.log("scrolled over green button")
-        document.addEventListener('DOMContentLoaded', function() {
-            var elems = document.querySelectorAll('.fixed-action-btn');
-            var instances = M.FloatingActionButton.init(elems, {
-              direction: 'top',
-              hoverEnabled: true,
-              toolbarEnabled:false
-            });
-            var instance = M.FloatingActionButton.getInstance(elems);
-            
-            instance.open();
-          });;
-          
-                
     } 
+    document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.fixed-action-btn');
+        var instances = M.FloatingActionButton.init(elems, {
+          direction: 'left'
+        });
+        console.log('content loaded')
+      });
     return (
 
         <div className="row ">
