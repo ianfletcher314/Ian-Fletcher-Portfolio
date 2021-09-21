@@ -3,7 +3,7 @@
 // the about button is clicked
 import React from "react";
 import "./style.css";
-import ian from "../../images/ian2.jpg"
+import ian from "../../images/Ian3.jpg"
 import M from 'materialize-css'
 
 function About() {
