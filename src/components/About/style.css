@@ -7,6 +7,7 @@
     /* padding: 50px!important; */
     /* margin-bottom: 5%!important; */
      margin-top: 2%!important;
+     
 
 }
 .aboutContainer2{
@@ -30,8 +31,9 @@
     margin-bottom: 2%;
 }
 .pic{
-    margin-top:3%;
-clip-path: polygon(20% 0%, 75% 0, 95% 20%, 95% 80%, 75% 100%, 20% 100%, 0% 80%, 0% 20%);
+    margin-top:2.5%;
+    clip-path: polygon(25% 0, 75% 0, 95% 20%, 95% 80%, 75% 100%, 25% 100%, 5% 80%, 5% 20%);
+    transform: translateX(-3%);
 
 }
 .up{
