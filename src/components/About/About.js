@@ -42,7 +42,7 @@ function About() {
                 </p>
 
             </section>
-            <div class="fixed-action-btn" onMouseEnter={handleMouseOverContactBtn}>
+            {/* <div class="fixed-action-btn" onMouseEnter={handleMouseOverContactBtn}>
                 <a class="btn-floating btn-large green accent-2 " >
                     <i class="large material-icons">mode_edit</i>
                 </a>
@@ -52,7 +52,7 @@ function About() {
                     <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
                     <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
                 </ul>
-            </div>
+            </div> */}
             
             
 
