@@ -30,7 +30,7 @@
 }
 .pic{
     margin-top:3%;
-    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+    clip-path: ellipse(35% 50% at 50% 50%);
   
 
 }
