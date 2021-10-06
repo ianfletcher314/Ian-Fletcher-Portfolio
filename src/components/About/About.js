@@ -1,24 +1,9 @@
-// about will be a component that has the paragraph about me and potentially a headshot in 2 collumns 
-// this componenet will be a child of the Header component and will conditionally render it when 
-// the about button is clicked
 import React from "react";
 import "./style.css";
 import ian from "../../images/Ian5.jpg"
-import M from 'materialize-css'
 
 function About() {
-    const handleMouseOverContactBtn =(event) =>{
-        console.log("scrolled over green button")
-    } 
-    document.addEventListener('DOMContentLoaded', function() {
-        var elems = document.querySelectorAll('.fixed-action-btn');
-        var instances = M.FloatingActionButton.init(elems, {
-          direction: 'left'
-        });
-        console.log('content loaded')
-      });
     return (
-
         <div className="row ">
             <h3 className="Header center purple-text text-lighten-3 col s12 " id="about">ABOUT ME</h3>
             <img className="col s4 push-s1 responsive-image pic z hide-on-med-and-down" src={ian}></img>
@@ -40,14 +25,8 @@ function About() {
                     I like to get to know my clients a little bit before designing for them so please feel free to contact me
                     bellow so we can discuss your ideas!
                 </p>
-
             </section>
- 
-            
-            
-
         </div>
-        
     );
 }
 
