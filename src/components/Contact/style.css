@@ -6,10 +6,6 @@
     margin-top: 10%!important;
     margin-bottom: 10%!important;   
 }
-.pads{
-    margin-top: 5px!important;
-    margin-bottom: 5px!important;
-}
 .roof{
     margin-top: 10%;
 }
@@ -18,13 +14,6 @@
     width:256px;
     padding-left: 4%;
     padding-right: 4%;
-}
-.iconic{
-    height:290px;
-    width:290px;
-    padding-left: 4%;
-    padding-right: 4%;
-
 }
 .iconicon{
     height:310px;
