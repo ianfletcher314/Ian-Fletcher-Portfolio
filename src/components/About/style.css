@@ -4,13 +4,8 @@
     border-style: outset!important;
     border-color: #ce93d8!important;
     border-width: 5px!important;
-    /* padding: 50px!important; */
-    /* margin-bottom: 5%!important; */
      margin-top: 2%!important;
-     
-
 }
-
 .z{
     z-index: -3;
 }
@@ -26,5 +21,4 @@
     margin-top:2.5%;
     clip-path: polygon(25% 0, 75% 0, 95% 20%, 95% 80%, 75% 100%, 25% 100%, 5% 80%, 5% 20%);
     transform: translateX(-3%);
-
 }
