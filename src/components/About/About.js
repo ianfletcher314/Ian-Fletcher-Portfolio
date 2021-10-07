@@ -1,3 +1,4 @@
+// About will be a child of header and will be conditionally rendered when About is clicked in the Nav Section
 import React from "react";
 import "./style.css";
 import ian from "../../images/Ian5.jpg"
