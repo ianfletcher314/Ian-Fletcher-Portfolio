@@ -223,7 +223,7 @@ function ProjectContainer() {
                     <div className="hidden" id="kiskispara">
                         <h4>KisKis</h4>
                         <p>Stores any personal information securely in your own personal encrypted password and information hub.</p>
-                        <h6>Node Js / Express-Handlebars / MySqul / Cryptr / Materialize / CSS</h6>
+                        <h6>Node Js / Express-Handlebars / MySQL / Cryptr / Materialize / CSS</h6>
                         <a className="nonlink " href="https://github.com/ianfletcher314/kiskis">GITHUB</a>
                         <p className="noheight"></p>
                         <a className="nonlink " href="https://lit-escarpment-01189.herokuapp.com/"> DEPLOYED SITE</a>
