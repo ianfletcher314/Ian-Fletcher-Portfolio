@@ -1,5 +1,4 @@
 import React from "react";
-import "./style.css";
 import image from "../../images/ian2.jpg"
 
 function Jumbotron() {
