@@ -198,7 +198,7 @@ function ProjectContainer() {
                 <div className="col s6 layer" id="project4"
                     onMouseEnter={handleMouseOverCal} onMouseLeave={handleMouseLeaveCal}>
                     <a href="https://happyhealth404.herokuapp.com/">
-                        <img src={calendar} alt="photo"
+                        <img src={calendar} alt="Happy Health Application"
                             className="responsive-img hoverable bradius btnbtn smallest" id="haplink"></img>
                     </a>
                     <div className="hidden" id="calendarpara">
@@ -216,7 +216,7 @@ function ProjectContainer() {
                 <div className="col s6 layer" id="project1"
                     onMouseEnter={handleMouseOverKis} onMouseLeave={handleMouseLeaveKis}>
                     <a href="https://lit-escarpment-01189.herokuapp.com/">
-                        <img src={kiskisphoto} alt="photo"
+                        <img src={kiskisphoto} alt="KisKis Application"
                             className="responsive-img hoverable bradius btnbtn smallest" id="kislink"></img>
                     </a>
 
@@ -234,7 +234,7 @@ function ProjectContainer() {
                 <div className="col s6 layer" id="project2"
                     onMouseEnter={handleMouseOverHor} onMouseLeave={handleMouseLeaveHor}>
                     <a href="https://samuel6roth.github.io/HoroscopeFinder/">
-                        <img src={horoscope} alt="photo"
+                        <img src={horoscope} alt="Horoscope Finder Application"
                             className="responsive-img hoverable bradius btnbtn smallest " id="horlink"></img>
                     </a>
                     <div className="hidden" id="horoscopepara">
@@ -251,7 +251,7 @@ function ProjectContainer() {
                 <div className="col s6 layer" id="project3"
                     onMouseEnter={handleMouseOverBud} onMouseLeave={handleMouseLeaveBud}>
                     <a href="https://basicbudget.herokuapp.com/">
-                        <img src={budget} alt="photo"
+                        <img src={budget} alt="Basic Budget Application"
                             className="responsive-img hoverable bradius btnbtn smallest" id="budlink"></img>
                     </a>
 
