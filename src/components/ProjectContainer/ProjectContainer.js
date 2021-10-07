@@ -23,8 +23,6 @@ function ProjectContainer() {
         p1.classList.add("center")
         var link = document.getElementById('kislink');
         link.classList.add("center")
-        // link.classList.remove("smaller")
-        // link.classList.add("smallest")
         p2.classList.add("hidden")
         p3.classList.add("hidden")
         p4.classList.add("hidden")
@@ -43,8 +41,6 @@ function ProjectContainer() {
         var name = document.getElementById('HoroscopeName');
         var link = document.getElementById('horlink');
         link.classList.add("center")
-        // link.classList.remove("smaller")
-        // link.classList.add("smallest")
         name.classList.add("hidden")
         p1.classList.remove("col")
         p1.classList.remove("s6")
@@ -67,8 +63,6 @@ function ProjectContainer() {
         var name = document.getElementById('BudgetName');
         var link = document.getElementById('budlink');
         link.classList.add("center")
-        // link.classList.remove("smaller")
-        // link.classList.add("smallest")
         name.classList.add("hidden")
         p1.classList.remove("col")
         p1.classList.remove("s6")
@@ -91,8 +85,6 @@ function ProjectContainer() {
         var name = document.getElementById('CalName');
         var link = document.getElementById('haplink');
         link.classList.add("center")
-        // link.classList.remove("smaller")
-        // link.classList.add("smallest")
         name.classList.add("hidden")
         p1.classList.remove("col")
         p1.classList.remove("s6")
@@ -115,8 +107,6 @@ function ProjectContainer() {
         var name = document.getElementById('KisKissName');
         var link = document.getElementById('kislink');
         link.classList.remove("center")
-        // link.classList.add("smaller")
-        // link.classList.remove("smallest")
         name.classList.remove("hidden")
         p1.classList.add("col")
         p1.classList.add("s6")
@@ -140,8 +130,6 @@ function ProjectContainer() {
         var name = document.getElementById('HoroscopeName');
         var link = document.getElementById('horlink');
         link.classList.remove("center")
-        // link.classList.add("smaller")
-        // link.classList.remove("smallest")
         name.classList.remove("hidden")
         p1.classList.add("col")
         p1.classList.add("s6")
@@ -164,8 +152,6 @@ function ProjectContainer() {
         var name = document.getElementById('BudgetName');
         var link = document.getElementById('budlink');
         link.classList.remove("center")
-        // link.classList.add("smaller")
-        // link.classList.remove("smallest")
         name.classList.remove("hidden")
         p1.classList.add("col")
         p1.classList.add("s6")
@@ -188,8 +174,6 @@ function ProjectContainer() {
         var name = document.getElementById('CalName');
         var link = document.getElementById('haplink');
         link.classList.remove("center")
-        // link.classList.add("smaller")
-        // link.classList.remove("smallest")
         name.classList.remove("hidden")
         p1.classList.add("col")
         p1.classList.add("s6")
