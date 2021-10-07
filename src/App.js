@@ -4,7 +4,6 @@ import Header from "./components/Header/Header"
 import About from "./components/About/About"
 import ProjectContainer from "./components/ProjectContainer/ProjectContainer"
 import Contact from "./components/Contact/Contact"
-import Footer from "./components/Footer/Footer"
 import Jumbotron from "./components/Jumbotron/Jumbotron"
 
 function App() {
