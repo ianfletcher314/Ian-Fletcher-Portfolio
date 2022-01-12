@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.1543b8f2.chunk.css",
-    "main.js": "/portfolio/static/js/main.6fc9ab41.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.6fc9ab41.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.8fc06545.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.8fc06545.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.6dc8aaa7.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.6dc8aaa7.js.map",
     "static/js/2.f1699800.chunk.js": "/portfolio/static/js/2.f1699800.chunk.js",
@@ -17,6 +17,7 @@
     "static/media/Project2.f1302205.png": "/portfolio/static/media/Project2.f1302205.png",
     "static/media/Project33.38143518.PNG": "/portfolio/static/media/Project33.38143518.PNG",
     "static/media/basicbudget.d28fcbea.png": "/portfolio/static/media/basicbudget.d28fcbea.png",
+    "static/media/brasilia.adeb2942.png": "/portfolio/static/media/brasilia.adeb2942.png",
     "static/media/doc.c5b9948f.png": "/portfolio/static/media/doc.c5b9948f.png",
     "static/media/email.19b23f57.png": "/portfolio/static/media/email.19b23f57.png",
     "static/media/gitgitgit.9628f9c7.png": "/portfolio/static/media/gitgitgit.9628f9c7.png",
@@ -28,6 +29,6 @@
     "static/js/runtime-main.6dc8aaa7.js",
     "static/js/2.f1699800.chunk.js",
     "static/css/main.1543b8f2.chunk.css",
-    "static/js/main.6fc9ab41.chunk.js"
+    "static/js/main.8fc06545.chunk.js"
   ]
 }
