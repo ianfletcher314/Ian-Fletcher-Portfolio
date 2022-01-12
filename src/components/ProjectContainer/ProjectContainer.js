@@ -240,6 +240,48 @@ function ProjectContainer() {
             HappyHealth
           </h5>
         </div>
+        {/* Brasilia --------------------*/}
+        <div
+          className="col s6 layer"
+          id="project3"
+          onMouseEnter={handleMouseOverBud}
+          onMouseLeave={handleMouseLeaveBud}
+        >
+          <a href="https://ianfletcher314.github.io/brazilianrestaurant/">
+            <img
+              src={brasil}
+              alt="Brasilia Application"
+              className="responsive-img hoverable bradius btnbtn smallest"
+              id="budlink"
+            ></img>
+          </a>
+
+          <div className="hidden" id="budgetpara">
+            <h4>Brasilia</h4>
+            <p>
+              Restaurant application for mid to small sized Brasilian restaurant
+              in St. Louis, Missouri.
+            </p>
+            <h6>HTML / CSS / JS / React / Materialize</h6>
+            <a
+              className="nonlink "
+              href="https://github.com/ianfletcher314/brazilianrestaurant"
+            >
+              GITHUB
+            </a>
+            <p className="noheight"></p>
+            <a
+              className="nonlink "
+              href="https://ianfletcher314.github.io/brazilianrestaurant/"
+            >
+              {" "}
+              DEPLOYED SITE
+            </a>
+          </div>
+          <h5 className="center flow-text" id="BudgetName">
+            Brasilia
+          </h5>
+        </div>
         {/* KisKis ----------------------*/}
         <div
           className="col s6 layer"
@@ -327,45 +369,6 @@ function ProjectContainer() {
           </div>
           <h5 className="center flow-text" id="HoroscopeName">
             Horoscope Finder
-          </h5>
-        </div>
-        {/* Basic Budget --------------------*/}
-        <div
-          className="col s6 layer"
-          id="project3"
-          onMouseEnter={handleMouseOverBud}
-          onMouseLeave={handleMouseLeaveBud}
-        >
-          <a href="https://basicbudget.herokuapp.com/">
-            <img
-              src={brasil}
-              alt="Basic Budget Application"
-              className="responsive-img hoverable bradius btnbtn smallest"
-              id="budlink"
-            ></img>
-          </a>
-
-          <div className="hidden" id="budgetpara">
-            <h4>Brasilia</h4>
-            <p>
-              Restaurant application for mid to small sized Brasilian restaurant
-              in St. Louis, Missouri.
-            </p>
-            <h6>HTML / CSS / JS / React / Materialize</h6>
-            <a
-              className="nonlink "
-              href="https://github.com/ianfletcher314/BasicBudget"
-            >
-              GITHUB
-            </a>
-            <p className="noheight"></p>
-            <a className="nonlink " href="https://basicbudget.herokuapp.com/">
-              {" "}
-              DEPLOYED SITE
-            </a>
-          </div>
-          <h5 className="center flow-text" id="BudgetName">
-            Basic Budget
           </h5>
         </div>
       </div>
