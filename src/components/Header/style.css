@@ -7,7 +7,7 @@
   max-width: 50% !important;
 }
 .move {
-  transform: translateX(20px);
+  transform: translateX(10px);
 }
 .pads {
   margin-top: 5px !important;
