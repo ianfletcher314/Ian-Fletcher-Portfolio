@@ -11,18 +11,18 @@ function Header({ componentCluster, setPageState }) {
         <div className="nav-wrapper white">
           <a
             href="index.html"
-            className="brand-logo left caveat-bold hide-on-med-and-down grey-text text-darken-2 move"
+            className="brand-logo left  hide-on-med-and-down grey-text text-darken-2 move"
           >
             {" "}
             Ian Fletcher || Developer
           </a>
           <ul
             id="nav-mobile"
-            className="right hide-on-med-and-down caveat-bold grey-text text-darken-2"
+            className="right hide-on-med-and-down  grey-text text-darken-2"
           >
             <li>
               <a
-                className="btn-flat caveat-bold pink-text text-accent-1 navbtn btnbtn"
+                className="btn-flat  pink-text text-accent-1 navbtn btnbtn"
                 id="projectsbtn "
                 onClick={() => setPageState(componentCluster[2])}
               >
@@ -32,7 +32,7 @@ function Header({ componentCluster, setPageState }) {
 
             <li>
               <a
-                className="btn-flat caveat-bold purple-text text-lighten-4 navbtn btnbtn"
+                className="btn-flat  purple-text text-lighten-4 navbtn btnbtn"
                 id="aboutbtn"
                 onClick={() => setPageState(componentCluster[1])}
               >
@@ -44,7 +44,7 @@ function Header({ componentCluster, setPageState }) {
 
             <li>
               <a
-                className="btn-flat caveat-bold cyan-text text-accent-3 navbtn btnbtn"
+                className="btn-flat  cyan-text text-accent-3 navbtn btnbtn"
                 id="contactbtn"
                 onClick={() => setPageState(componentCluster[3])}
               >
@@ -64,10 +64,10 @@ function Header({ componentCluster, setPageState }) {
       </div>
 
       <div className="container center">
-        <ul className="brand-logo center hide-on-large-only show-on-medium-and-down caveat left-align">
+        <ul className="brand-logo center hide-on-large-only show-on-medium-and-down  left-align">
           <li>
             <a
-              className="btn-flat caveat-bold pink-text text-accent-1 navbtn"
+              className="btn-flat  pink-text text-accent-1 navbtn"
               href="#projects"
               id="projectsbtn"
               onClick={() => setPageState(componentCluster[2])}
@@ -78,7 +78,7 @@ function Header({ componentCluster, setPageState }) {
 
           <li>
             <a
-              className="btn-flat caveat-bold purple-text text-lighten-3 navbtn"
+              className="btn-flat  purple-text text-lighten-3 navbtn"
               href="#about"
               id="aboutbtn"
               onClick={() => setPageState(componentCluster[1])}
@@ -89,7 +89,7 @@ function Header({ componentCluster, setPageState }) {
 
           <li>
             <a
-              className="btn-flat caveat-bold cyan-text text-accent-3 navbtn"
+              className="btn-flat  cyan-text text-accent-3 navbtn"
               href="#contact"
               id="contactbtn"
               onClick={() => setPageState(componentCluster[3])}
