@@ -125,14 +125,16 @@
 .hidden {
   display: none;
 }
-.alegreya {
-  font-family: "Alegreya", serif;
+.dancing {
+  font-family: "Dancing Script", cursive;
 }
 .caveat {
   font-family: "Caveat", cursive;
 }
 .smooch {
   font-family: "Smooch", cursive;
+  font-size: 35px;
+  transform: translateY(-15%);
 }
 .arvo {
   font-family: "Arvo", serif;
