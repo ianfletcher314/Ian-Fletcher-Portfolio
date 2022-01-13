@@ -6,7 +6,7 @@ import doc from "../../images/doc.png";
 import link from "../../images/lili.png";
 import mail from "../../images/email.png";
 // import resume from "../../images/IanFletcherDevelopmentResume.pdf";
-import resume2 from "../../images/IanFletcherResume2021.pdf";
+import resume2 from "../../images/IanFletcherResume2022.pdf";
 
 function Contact() {
   return (
