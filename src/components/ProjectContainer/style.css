@@ -127,9 +127,13 @@
 }
 .dancing {
   font-family: "Dancing Script", cursive;
+  font-size: 35px;
+  transform: translateY(-15%);
 }
 .caveat {
   font-family: "Caveat", cursive;
+  font-size: 40px;
+  transform: translateY(-15%);
 }
 .smooch {
   font-family: "Smooch", cursive;
