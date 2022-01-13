@@ -5,7 +5,7 @@ import git from "../../images/gitgitgit.png";
 import doc from "../../images/doc.png";
 import link from "../../images/lili.png";
 import mail from "../../images/email.png";
-import resume from "../../images/IanFletcherDevelopmentResume.pdf";
+// import resume from "../../images/IanFletcherDevelopmentResume.pdf";
 import resume2 from "../../images/IanFletcherResume2021.pdf";
 
 function Contact() {
@@ -26,7 +26,7 @@ function Contact() {
 
         <a
           className="center grey-text text-accent-3 contact"
-          href={resume}
+          href={resume2}
           target="_blank"
           download
         >
