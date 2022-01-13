@@ -262,7 +262,7 @@ function ProjectContainer() {
               Restaurant application for mid to small sized Brasilian restaurant
               in St. Louis, Missouri.
             </p>
-            <h6>HTML / CSS / JS / React / Materialize</h6>
+            <h6>HTML / CSS / JSX / React / Bootstrap / ∆rtgrid </h6>
             <a
               className="nonlink "
               href="https://github.com/ianfletcher314/brazilianrestaurant"
