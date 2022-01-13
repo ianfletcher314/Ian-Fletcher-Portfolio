@@ -1,132 +1,145 @@
-.navbtn{
-    font-size: 20px!important;
-    margin-left: 0px!important;
-    margin-right: 0px!important;   
+.navbtn {
+  font-size: 20px !important;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
 }
-.mobileimage{
-    max-width: 50%!important;
+.mobileimage {
+  max-width: 50% !important;
 }
-.smaller{
-    width:85%;
+.smaller {
+  width: 85%;
 }
-.smallest{
-    width:75%;
+.smallest {
+  width: 75%;
 }
-.aboutContainer{
-    background-color: #f3e6f5;
-    border-radius: 50px!important;
-    border-style: outset!important;
-    border-color: #ce93d8!important;
-    border-width: 5px!important;
-    padding: 50px!important;
-    /* margin-top: 5%!important;
+.aboutContainer {
+  background-color: #f3e6f5;
+  border-radius: 50px !important;
+  border-style: outset !important;
+  border-color: #ce93d8 !important;
+  border-width: 5px !important;
+  padding: 50px !important;
+  /* margin-top: 5%!important;
     margin-bottom: 5%!important; */
 }
-.aboutContainer2{
-    background-color: #f3e6f5;
-    border-radius: 50px!important;
-    border-style: outset!important;
-    border-color: #ce93d8!important;
-    border-width: 5px!important;
-    padding: 50px!important;
-   
+.aboutContainer2 {
+  background-color: #f3e6f5;
+  border-radius: 50px !important;
+  border-style: outset !important;
+  border-color: #ce93d8 !important;
+  border-width: 5px !important;
+  padding: 50px !important;
 }
-.clientsContainer{
-    background-color: #e3f0ef;
-    border-radius: 50px!important;
-    border-style: outset!important;
-    border-color: #64ffda!important;
-    border-width: 5px!important;
-    padding: 50px!important;
-    margin-top: 10%!important;
-    margin-bottom: 10%!important;
+.clientsContainer {
+  background-color: #e3f0ef;
+  border-radius: 50px !important;
+  border-style: outset !important;
+  border-color: #64ffda !important;
+  border-width: 5px !important;
+  padding: 50px !important;
+  margin-top: 10% !important;
+  margin-bottom: 10% !important;
 }
-.projectsContainer{
-    background-color: #f3e5e9;
-    border-radius: 50px!important;
-    border-style: outset!important;
-    border-color: #ff80ab!important;
-    border-width: 5px!important;
-    padding: 10px!important;
-    margin-top: 5%!important;
-    margin-bottom: 5%!important;
-    text-align: center;
-  
+.projectsContainer {
+  background-color: #f3e5e9;
+  border-radius: 50px !important;
+  border-style: outset !important;
+  border-color: #ff80ab !important;
+  border-width: 5px !important;
+  padding: 10px !important;
+  margin-top: 5% !important;
+  margin-bottom: 5% !important;
+  text-align: center;
 }
-.halfsize{
-    width: 80%;
+.halfsize {
+  width: 80%;
 }
-.pads{
-    margin-top: 5px!important;
-    margin-bottom: 5px!important;
+.pads {
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
 }
-.semimobileimage{
-    max-width: 75%!important;
-
+.semimobileimage {
+  max-width: 75% !important;
 }
-.space{
-    display: flex!important;
-    flex-direction: row!important;
-    justify-content: space-between!important;
-    font-size: 20px!important;
-    margin-top: 10%!important;
-    margin-bottom: 10%!important;   
+.space {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between !important;
+  font-size: 20px !important;
+  margin-top: 10% !important;
+  margin-bottom: 10% !important;
 }
-.footerformat{ 
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: italic;
-    margin-bottom: 10%!important;   
-    
+.footerformat {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  margin-bottom: 10% !important;
 }
-.bradius{
-    border-radius: 25px!important;
-    border-style: outset!important;
-    border-color: grey!important;
-    border-width: 1px!important;
+.bradius {
+  border-radius: 25px !important;
+  border-style: outset !important;
+  border-color: grey !important;
+  border-width: 1px !important;
 }
-.layer{
-    max-width: 49%!important;
-
+.layer {
+  max-width: 49% !important;
 }
 .btnbtn {
-    /*
+  /*
       All of the base styles have
       moved to the “CSS” tab above.
     */
-    transition: transform 250ms!important;
-  }
-  
-  .btnbtn:hover {
-    transform: translateY(-10px)!important;
-  }
+  transition: transform 250ms !important;
+}
 
-.pattern{
-    height: 20px;
-    width: 20px;
+.btnbtn:hover {
+  transform: translateY(-10px) !important;
 }
-.Header{
-    margin-top: 2%;
-    margin-bottom: 2%;
+
+.pattern {
+  height: 20px;
+  width: 20px;
 }
-.nonlink{
-    color: grey;
-    font-style: italic;
+.Header {
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
-.noheight{
-    height:0%;
-    margin:0%;
+.nonlink {
+  color: grey;
+  font-style: italic;
 }
-.z{
-    z-index: +1;
+.noheight {
+  height: 0%;
+  margin: 0%;
 }
-.up{
-    transform:translateY(-130%);
-    /* transform:translateX(40%) */
+.z {
+  z-index: +1;
 }
-.right{
-    transform: translateX(1%);
+.up {
+  transform: translateY(-130%);
+  /* transform:translateX(40%) */
 }
-.hidden{
-    display: none;
+.right {
+  transform: translateX(1%);
+}
+.hidden {
+  display: none;
+}
+.dancing {
+  font-family: "Dancing Script", cursive;
+  font-size: 35px;
+  transform: translateY(-15%);
+}
+.caveat {
+  font-family: "Caveat", cursive;
+  font-size: 40px;
+  transform: translateY(-15%);
+}
+.smooch {
+  font-family: "Smooch", cursive;
+  font-size: 35px;
+  transform: translateY(-15%);
+}
+.arvo {
+  font-family: "Arvo", serif;
 }

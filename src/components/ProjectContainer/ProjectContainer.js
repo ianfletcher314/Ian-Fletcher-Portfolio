@@ -212,7 +212,7 @@ function ProjectContainer() {
             ></img>
           </a>
           <div className="hidden" id="calendarpara">
-            <h4>HappyHealth</h4>
+            <h4 className="arvo">HappyHealth</h4>
             <p>
               Provides multiple healthy meal options based upon the number of
               calories the user wants to consume.
@@ -236,7 +236,7 @@ function ProjectContainer() {
               DEPLOYED SITE
             </a>
           </div>
-          <h5 className="center flow-text" id="CalName">
+          <h5 className="center flow-text arvo" id="CalName">
             HappyHealth
           </h5>
         </div>
@@ -257,7 +257,7 @@ function ProjectContainer() {
           </a>
 
           <div className="hidden" id="budgetpara">
-            <h4>Brasilia</h4>
+            <h4 className="smooch">Brasilia</h4>
             <p>
               Restaurant application for mid to small sized Brasilian restaurant
               in St. Louis, Missouri.
@@ -278,7 +278,7 @@ function ProjectContainer() {
               DEPLOYED SITE
             </a>
           </div>
-          <h5 className="center flow-text" id="BudgetName">
+          <h5 className="center flow-text smooch" id="BudgetName">
             Brasilia
           </h5>
         </div>
@@ -299,7 +299,7 @@ function ProjectContainer() {
           </a>
 
           <div className="hidden" id="kiskispara">
-            <h4>KisKis</h4>
+            <h4 className="caveat">KisKis</h4>
             <p>
               Stores any personal information securely in your own personal
               encrypted password and information hub.
@@ -322,7 +322,7 @@ function ProjectContainer() {
               DEPLOYED SITE
             </a>
           </div>
-          <h5 className="center flow-text" id="KisKissName">
+          <h5 className="center flow-text caveat" id="KisKissName">
             KisKis
           </h5>
         </div>
@@ -342,7 +342,7 @@ function ProjectContainer() {
             ></img>
           </a>
           <div className="hidden" id="horoscopepara">
-            <h4>Horoscope Finder</h4>
+            <h4 className="dancing">Horoscope Finder</h4>
             <p>
               Displays the user’s daily horoscope and an inspirational quote
               depending on their zodiac sign.
@@ -367,7 +367,7 @@ function ProjectContainer() {
               DEPLOYED SITE
             </a>
           </div>
-          <h5 className="center flow-text" id="HoroscopeName">
+          <h5 className="center flow-text dancing" id="HoroscopeName">
             Horoscope Finder
           </h5>
         </div>

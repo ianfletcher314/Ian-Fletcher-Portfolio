@@ -1,53 +1,52 @@
-.navbtn{
-    font-size: 20px!important;
-    margin-left: 0px!important;
-    margin-right: 0px!important;   
+.navbtn {
+  font-size: 20px !important;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
 }
-.mobileimage{
-    max-width: 50%!important;
+.mobileimage {
+  max-width: 50% !important;
 }
-
-.pads{
-    margin-top: 5px!important;
-    margin-bottom: 5px!important;
+.move {
+  transform: translateX(14px);
 }
-.semimobileimage{
-    max-width: 75%!important;
-
+.pads {
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
 }
-.space{
-    display: flex!important;
-    flex-direction: row!important;
-    justify-content: space-between!important;
-    font-size: 20px!important;
-    margin-top: 10%!important;
-    margin-bottom: 10%!important;   
+.semimobileimage {
+  max-width: 75% !important;
 }
-.footerformat{ 
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: italic;
-    margin-bottom: 10%!important;   
-    
+.space {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between !important;
+  font-size: 20px !important;
+  margin-top: 10% !important;
+  margin-bottom: 10% !important;
 }
-.bradius{
-    border-radius: 25px!important;
-    border-style: outset!important;
-    border-color: grey!important;
-    border-width: 1px!important;
+.footerformat {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  margin-bottom: 10% !important;
 }
-.layer{
-    max-width: 49%!important;
-
+.bradius {
+  border-radius: 25px !important;
+  border-style: outset !important;
+  border-color: grey !important;
+  border-width: 1px !important;
+}
+.layer {
+  max-width: 49% !important;
 }
 .btnbtn {
-    /*
+  /*
       All of the base styles have
       moved to the “CSS” tab above.
     */
-    transition: transform 250ms!important;
-  }
-  
-  .btnbtn:hover {
-    transform: translateY(-10px)!important;
-  }
+  transition: transform 250ms !important;
+}
+
+.btnbtn:hover {
+  transform: translateY(-10px) !important;
+}
