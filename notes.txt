@@ -1,0 +1,3 @@
+todo:
+1. make the fonts look better on home page and nav sectoin
+2. make a back end projects section
